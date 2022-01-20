@@ -6,4 +6,4 @@ services:
     restart: on-failure
     build: .
     ports:
-      - '6000:8081'
+      - '4001:8081'
