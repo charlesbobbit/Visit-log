@@ -12,4 +12,6 @@ Docker set up is defined in: /set-up-docker.sh
 
 Once docker is installed run:
     docker-compose up
+
+
 and open on localhost:4001
