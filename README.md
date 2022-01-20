@@ -7,4 +7,9 @@ The application is a simple node application that hosts a simple server which re
 
 
 # SetUp
-Docker set up is defined here:
+Docker set up is defined in: /set-up-docker.sh
+
+
+Once docker is installed run:
+    docker-compose up
+and open on localhost:4001
