@@ -11,7 +11,7 @@ client.set('visits', 0);
 app.get('/', (req, res) => {
   process.exit(0);
   client.get('visits', (err, visits) => {
-    res.send('This page has been visited ' + visits + 'times.');
+    res.send('This page has been visited ' + visits + 'times!');
     client.set('visits', parseInt(visits) + 1);
   });
 });
